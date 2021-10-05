@@ -1,6 +1,6 @@
 Customizable music player widget
 ------------------------------------------
-This is a very simple applicaion that uses tkinter for a beautiful GUI. This program demonstrates the use of stack data structure by creating a playlist.
+This is a very simple application that uses tkinter for a beautiful GUI. This program demonstrates the use of stack data structure by creating a playlist.
 You can add your desired song and the song which is added at last is the one to be played first, i.e last in first out. You can as well, play, pause, stop or 
 go to the next song in the list as you desire. Hope you like the application!
 -------------------------------------------  
