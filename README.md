@@ -1,11 +1,8 @@
-# Music Playlist
- A playlist widget for computers
+# A Customizable Music Playlist Widget
 
-Customizable music player widget
-------------------------------------------
-This is a very simple application that uses tkinter for a beautiful GUI. This program demonstrates the use of stack data structure by creating a playlist.
-You can add your desired song and the song which is added at last is the one to be played first, i.e last in first out. You can as well, play, pause, stop or 
-go to the next song in the list as you desire. Hope you like the application!
+| This is a very simple application that uses tkinter for a beautiful GUI. This program demonstrates the use of stack data structure by creating a playlist. You can add your desired song and the song which is added at last is the one to be played first, i.e last in first out. You can as well, play, pause, stop or go to the next song in the list as you desire. Hope you like the application! | ![Widget](https://github.com/Avr13/Music-Playlist/blob/main/Playlist%20Widget.PNG)  |
+|---|---|
+
 -------------------------------------------  
 
 To run-
