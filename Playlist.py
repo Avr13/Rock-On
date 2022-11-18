@@ -3,7 +3,6 @@ from tkinter import filedialog
 import pyglet
 import os
 j=0
-Location= r'C:' #Insert directory location of Music player folder
 
 root = Tk()
 root.title("M. Player")
@@ -22,7 +21,7 @@ pl=[]  #stack
 
 def browse_file():
     global filepath
-    filepath = filedialog.askopenfilename(initialdir=Location+r'\Music player')
+    filepath = filedialog.askopenfilename(initialdir='\Music player')
     if (filepath != ''):
         pl.insert(0, filepath)  # push
     global j
@@ -59,19 +58,19 @@ def resume_music():
 playlist = Label(tmiddle_frame, text="----- PLAYLIST -----")
 playlist.pack()
 
-img_play = PhotoImage(file=Location+r'\Music player\Icons\Play.png')
+img_play = PhotoImage(file='Music player\Icons\Play.png')
 button_play = Button(bottom_frame, image=img_play, command=play_song)
 button_play.place(x=20, y=8)
 
-img_stop = PhotoImage(file=Location+r'\Music player\Icons\Stop.png')
+img_stop = PhotoImage(file='Music player\Icons\Stop.png')
 button_stop = Button(bottom_frame, image=img_stop, command=stop_music)
 button_stop.place(x=80, y=8)
 
-img_resume = PhotoImage(file=Location+r'\Music player\Icons\Pause.png')
+img_resume = PhotoImage(file='Music player\Icons\Pause.png')
 button_resume = Button(bottom_frame, image=img_resume, command=resume_music)
 button_resume.place(x=140, y=8)
 
-img = PhotoImage(file=Location+r'\Music player\Icons\Me.gif')
+img = PhotoImage(file='Music player\Icons\Me.gif')
 button_add_song = Button(top_frame, command=browse_file, image=img)
 button_add_song.pack()
 root.resizable(False, False)

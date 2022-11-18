@@ -7,10 +7,7 @@
 
 To run-
 1. Install the required python modules: tkinter, pyglet.
-2. Move the 'Music player' folder to your "C:" drive or desired location.
-	If folder is moved to some other location (not in c drive) or the program does not run:
-		Try: Edit the code and change the Location from "C:"(at line 6) to the location where the 'Music Player' folder is.
-3. On executing the program again, a Playlist widget should appear.
+2. On executing the program again, a Playlist widget should appear.
 --------------------------------------------
 
 Functionalities-
